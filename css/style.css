@@ -10,3 +10,46 @@ image {
 body {
   font-family: 'Oleo Script', cursive;
 }
+
+.hero {
+  width: 100%;
+}
+
+.backward-img {
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-image: url(../images/Background.jpg);
+  border-radius: 60px 60px 100px 100px;
+  height: 300px;
+  position: relative;
+  padding-top: 10px;
+}
+h4 {
+  font-size: 32px;
+}
+.row {
+  width: 70%;
+  background-color: white;
+  border-radius: 40px;
+  border: 1px solid gray;
+  box-shadow: 2px 2px 5px gray;
+  position: absolute;
+  left: 15%;
+  top: 200px;
+  z-index: 3;
+}
+.discount {
+  color: rgb(13, 247, 13);
+}
+.card-details {
+  font-size: 12px;
+  font-weight: 100;
+  color: rgb(195, 194, 194);
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
